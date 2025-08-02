@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "name": "Business Tech Event",
+            "date": "2025-10-10"
+        },
+        {
+            "name": "Future Leaders Event",
+            "date": "2025-08-06"
+        },
+        {
+            "name": "Commerce Chamber Meeting",
+            "date": "2025-11-16"
+        },
+        {
+            "name": "Network Event",
+            "date": "2025-09-19"
+        },
+        {
+            "name": "Annual Chamber Prize-giving",
+            "date": "2025-11-28"
+        }
+    ]
+}
