@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Directory | South Afrtica, Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://user13356.github.io/wdd231/chamber/image/logochambersmall.jpg">
+    <meta property="og:url" content="https://user13356.github.io/wdd231/chamber/#">
+    <meta property=" og:description=" content South Afrtica, Chamber, Sign up for unreal benefits">
+    <meta property="fb:app_id" content="your-app-id-here">
+
+
+    <title>Directory | South Afrtica, Chamber of Commerce</title>
+    <meta name="description" content="South Africa Chamber directory" />
+    <meta name="author" content="Corbin Van Scheltema" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap">
+    </noscript>
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/join.css" />
+
+    <script type="module" src="./scripts/app.js"></script>
+    <script src="./scripts/modules/join.js" defer></script>
+
+
+    <link rel="icon" href="images/logochambersmall.jpg 48x48" type="image/ico">
+
+    <script src="https://kit.fontawesome.com/#" crossorigin="anonymous"></script>
+</head>
+
+<body id="join-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/logochambersmall.jpg"
+                    alt="Logo for South Afrtica, Chamber of Commerce" />
+                <h1 class="nameHeader">South Africa<br>Chamber of Commerce</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./discover">Discover</a></li>
+                <li><a class="nav-a " href="./directory.html">Directory</a></li>
+                <li><a class="nav-a " href="./join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <form method="get" action="thankyou.html">
+            <h2 class="sub-title-form">Member Sign Up</h2>
+            <label class="name-lb">
+                Name:
+            </label>
+            <input type="text" name="firstName" title="First name" autocomplete="given-name" required
+                placeholder="First">
+            <input type="text" name="lastName" title="First name" autocomplete="given-name" required placeholder="Last">
+            <br><br>
+
+            <label>
+                Company Name:
+            </label>
+            <input type="text" name="comapnyName" title="Enter Type Details" autocomplete="company-name"
+                pattern="[A-Za-z\s\-.,']{2,}" required>
+
+            <br><br>
+
+            <label>
+
+                Email:
+
+            </label>
+            <input type="email" name="email" title="Enter email" autocomplete="email"
+                placeholder="something@something.com" required>
+            <br><br>
+
+            <label>
+                Cell Number:
+            </label>
+            <input type="tel" name="phone" title="Cell Number" autocomplete="tel" required
+                placeholder="+27 82 123 1234">
+            <br><br>
+
+            <label>
+                Company Type:
+            </label>
+            <input type="text" name="organization" title="Company Details" autocomplete="organization" required>
+            <br><br>
+
+            <label>
+                Membership Details:
+            </label>
+
+            <select name="membershipCompare" required>
+                <option value="" disabled selected>Select membership</option>
+                <option value="Gold">Gold</option>
+                <option value="Silver">Silver</option>
+                <option value="Bronze">Bronze</option>
+                <option value="Non Profit">Non Profit</option>
+
+
+
+            </select>
+
+            <br><br>
+
+            <label>
+                Company Description:
+            </label>
+            <textarea name="comapnyname" title="Please provide company description" rows="4" cols="48"></textarea>
+
+            <br><br>
+
+            <input type="hidden" name="timestamp" id="timestamp" value="">
+            <button class="css-button-fully-rounded--grey" type="submit">Submit</button>
+
+            <br><br>
+
+        </form>
+
+        <section class="membership-container">
+            <h2 class="sub-title-member">Membership Details</h2>
+
+            <div class="card">
+                <h3>Gold</h3>
+                <button class="css-button-arrow--black" id="goldButton" aria-label="Gold Membership Details">
+                    <span class="visually-hidden">Learn More</span></button>
+            </div>
+
+            <div class="card">
+                <h3>Silver</h3>
+                <button class="css-button-arrow--black" id="silverButton" aria-label="Silver Membership Details">
+                    <span class="visually-hidden">Learn More</span></button>
+            </div>
+
+            <div class="card">
+                <h3>Bronze<h3>
+                        <button class="css-button-arrow--black" id="bronzeButton"
+                            aria-label="Bronze Membership Details">
+                            <span class="visually-hidden">Learn More</span></button>
+
+            </div>
+
+            <div class="card">
+                <h3>Non Profit</h3>
+                <button class="css-button-arrow--black" id="npButton" aria-label="Non Profit Membership Details">
+                    <span class="visually-hidden">Learn More</span>
+                </button>
+
+            </div>
+
+            <section class="msg-box">
+                <div class="rotating-text">
+                    <h3 class="start-p">Gain knowledge for </h3>
+
+                    <p>
+                        <span class="word purple">Insight</span>
+                        <span class="word green">Informal</span>
+                        <span class="word blue">Intelect</span>
+                        <span class="word stone">Famous</span>
+                        <span class="word yellow">Future</span>
+                    </p>
+
+                    <h3 class="end-p"> before</h3>
+
+                </div>
+            </section>
+
+        </section>
+        <dialog id="goldModal"></dialog>
+        <dialog id="silverModal"></dialog>
+        <dialog id="bronzeModal"></dialog>
+        <dialog id="npModal"></dialog>
+
+
+
+    </main>
+
+    <footer>
+
+        <p>&copy;<span id="currentyear">Lorem</span> Corbin Van Scheltema | South Africa</p>
+
+        <p id="lastModified">Lorem ipsum</p>
+
+    </footer>
+
+</body>
+
+</html>
