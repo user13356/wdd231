@@ -1,0 +1,318 @@
+                                                            /* Join */
+
+
+                                                            /* Form  */
+
+
+                                                            main {
+                                                                max-width: 855px;
+                                                                display: grid;
+                                                                grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+                                                                gap: 1em;
+                                                                margin: 0 auto;
+                                                            }
+
+                                                            .sub-title-form,
+                                                            .sub-title-member {
+                                                                color: var(--night);
+
+                                                                font-size: var(--font-size-large);
+
+                                                                text-align: center;
+                                                            }
+
+                                                            .sub-title-form {
+                                                                margin: 8px;
+                                                            }
+
+                                                            .sub-title-member {
+                                                                margin-top: 32px;
+                                                            }
+
+                                                            form {
+                                                                min-width: 290px;
+                                                                margin: 18px;
+                                                                padding: 8px;
+                                                                border: 1px solid var(--movie-man);
+                                                                border-radius: 8px;
+                                                                background-color: #95b29563;
+                                                            }
+
+                                                            label {
+                                                                display: block;
+                                                                margin-bottom: 8px;
+                                                            }
+
+                                                            .name-lb input {
+                                                                display: inline-block;
+                                                                width: 42%;
+                                                                margin-right: 4px;
+                                                            }
+
+                                                            input,
+
+                                                            textarea,
+
+                                                            select {
+                                                                width: 95%;
+                                                                padding: 9px;
+                                                                margin-bottom: 20px;
+                                                                border: 1.5px solid var(--movie-man);
+                                                                border-radius: 5px;
+                                                            }
+
+                                                            .membership-container {
+                                                                display: block;
+                                                            }
+
+                                                            .membership-container h3 {
+                                                                color: var(--night);
+                                                                font-size: var(--font-size-large);
+                                                                margin: 8px;
+                                                                text-align: center;
+                                                            }
+
+                                                            .card {
+                                                                display: grid;
+                                                                justify-content: center;
+                                                                align-content: center;
+                                                                padding: 8px;
+                                                                margin: 18px;
+                                                                border-radius: 4.5px;
+                                                                box-shadow: 0 2px 4px var(--paragraph-background-color);
+                                                            }
+
+                                                            .card h3 {
+                                                                color: var(--night);
+                                                            }
+
+                                                            .card {
+                                                                animation: animate 5s ease infinite;
+                                                            }
+
+                                                            .card:hover {
+                                                                transform: scale(1.10);
+                                                                transition: transform 0.4s ease-in-out;
+                                                            }
+
+                                                            @keyframes animate {
+                                                                0% {
+                                                                    background-color: #05c4028e;
+                                                                }
+
+                                                                50% {
+                                                                    background-color: #00ae7d4e;
+                                                                }
+
+                                                                100% {
+                                                                    background-color: #0e464674;
+                                                                }
+                                                            }
+
+                                                            .card:nth-child(1) {
+                                                                animation-delay: 0.3s;
+                                                            }
+
+                                                            .card:nth-child(2) {
+                                                                animation-delay: 0.6s;
+                                                            }
+
+                                                            .card:nth-child(3) {
+                                                                animation-delay: 1.5s;
+                                                            }
+
+                                                            .card:nth-child(4) {
+                                                                animation-delay: 3s;
+                                                            }
+
+                                                            .card button {
+                                                                margin: 0 auto;
+                                                            }
+
+                                                            .membership-levels {
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                margin-bottom: 18px;
+                                                            }
+
+                                                            .membership-level {
+                                                                border: 1px solid #6b6a6a;
+                                                                border-radius: 10px;
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                cursor: pointer;
+                                                                transition: all 0.4s ease-in-out;
+                                                            }
+
+                                                            .membership-level:hover {
+                                                                background-color: #192825;
+                                                            }
+
+                                                            .css-button-fully-rounded--grey {
+                                                                min-width: 120px;
+                                                                height: 38px;
+                                                                color: #fff;
+                                                                padding: 4.5px 9px;
+                                                                font-weight: bold;
+                                                                cursor: pointer;
+                                                                transition: all 0.4s ease;
+                                                                position: relative;
+                                                                display: inline-block;
+                                                                outline: none;
+                                                                border-radius: 18px;
+                                                                border: 1.5px solid #32453f;
+                                                                background: #293c3a;
+                                                            }
+
+                                                            .css-button-fully-rounded--grey:hover {
+                                                                background: #fffefe;
+                                                                color: #586467;
+                                                            }
+
+                                                            .css-button-arrow--black {
+                                                                min-width: 125px;
+                                                                height: 38px;
+                                                                color: #f2ebeb;
+                                                                padding: 9px 18px;
+                                                                font-weight: bold;
+                                                                cursor: pointer;
+                                                                transition: all 0.4s ease;
+                                                                position: relative;
+                                                                display: inline-block;
+                                                                outline: none;
+                                                                border-radius: 4.5px;
+                                                                border: none;
+                                                                background-color: #384f47;
+                                                            }
+
+                                                            .css-button-arrow--black:hover {
+                                                                border-radius: 5px;
+                                                                padding-right: 24px;
+                                                                padding-left: 8px;
+                                                            }
+
+                                                            .css-button-arrow--black:hover:after {
+                                                                opacity: 1.5;
+                                                                right: 8px;
+                                                            }
+
+                                                            .css-button-arrow--black:after {
+                                                                content: "\00BB";
+                                                                position: absolute;
+                                                                opacity: 0;
+                                                                font-size: 18px;
+                                                                line-height: 38px;
+                                                                top: 0;
+                                                                right: -18px;
+                                                                transition: 0.5s;
+                                                            }
+
+                                                            .msg-box {
+                                                                margin: 40px;
+                                                                display: flex;
+                                                                align-content: center;
+                                                            }
+
+                                                            .rotating-text .start-p,
+                                                            .rotating-text .end-p {
+                                                                font-size: var(--font-size-small);
+                                                                text-align: center;
+                                                            }
+
+                                                            .rotating-text .start-p {
+                                                                width: 145px;
+                                                            }
+
+                                                            .rotating-text {
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                gap: 30px;
+                                                                font-size: var(--font-size-base);
+                                                                color: var(--night);
+                                                                margin: 0 auto;
+                                                            }
+
+                                                            .rotating-text p {
+                                                                display: inline-block;
+                                                                vertical-align: top;
+                                                                width: 65px;
+                                                                height: auto;
+                                                                padding-bottom: 12px;
+                                                                text-align: center;
+                                                                margin: 0;
+                                                            }
+
+                                                            .rotating-text p .word {
+                                                                position: absolute;
+                                                                display: flex;
+                                                                opacity: 0;
+                                                                font-weight: 880;
+                                                            }
+
+                                                            .rotating-text p .word .letter {
+                                                                transform-origin: center center 25px;
+                                                            }
+
+                                                            .rotating-text p .word .letter.out {
+                                                                transform: rotateX(88deg);
+                                                                transition: 0.40s cubic-bezier(0.8, 0, 0.8, 0.4);
+                                                            }
+
+                                                            .rotating-text p .word .letter.in {
+                                                                transition: 0.38s ease;
+                                                            }
+
+                                                            .rotating-text p .word .letter.behind {
+                                                                transform: rotateX(-90deg);
+                                                            }
+
+                                                            .purple {
+                                                                color: #684698;
+                                                                /* Purple */
+                                                            }
+
+                                                            .green {
+                                                                color: #0e9b5e;
+                                                                /* Green */
+                                                            }
+
+                                                            .blue {
+                                                                color: #12467b;
+                                                                /* Blue */
+                                                            }
+
+                                                            .stone {
+                                                                color: #a6b6b9;
+                                                                /* Stone */
+                                                            }
+
+                                                            .yellow {
+                                                                color: #8c7b35;
+                                                                /* Yellow */
+                                                            }
+
+                                                            dialog {
+                                                                border: 1px solid var(--night);
+                                                                border-radius: 0.22rem;
+                                                                padding: 2.8rem;
+                                                                background-color: #bcb7b7f4;
+                                                                box-shadow: 0 0 3rem var(--white);
+                                                                width: 88%;
+                                                                max-width: 580px;
+                                                            }
+
+                                                            ::backdrop {
+                                                                background-color: rgba(18, 18, 18, 0.5);
+                                                            }
+
+                                                            dialog button {
+                                                                position: absolute;
+                                                                top: 9px;
+                                                                right: 22px;
+                                                                padding: 0.6rem 1.5rem;
+                                                                border: 1px solid var(--white);
+                                                                background-color: var(--white);
+                                                                color: var(--night);
+                                                            }
