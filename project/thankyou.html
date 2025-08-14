@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="Corbin Van Scheltema">
+
+    <link rel="icon" href="images/favicon/favicon-32x32.webp" sizes="32x32" type="image/ico">
+
+                                                <!--  Essential META Tags -->
+
+    <meta property="og:title" content="Home | Western Cape Nature">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Experience the Western Cape with its stunning landscapes, vibrant culture, and unforgettable adventures."">
+    <meta property="og:image" content="images/favicon/favicon-circle-200x200.webp">
+    <meta property="og:url" content="https://user13356.github.io/wdd231/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Visit us | Panama Experience</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/favicon/favicon-circle-200x200.webp" alt="Logo Western Cape nature" />
+                <h1 class="nameHeader"><strong>South Africa</strong> <br>Fresh Air</h1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thank-you">
+            <div class="thank-you-content">
+                <h1>Thank You!</h1>
+                <p>We're grateful for your curiosity and confidence in what we do.</p>
+                <p>Your reservation is confirmed, and we can’t wait to join you on this exciting journey!</p>
+                <a href="index.html" class="button">Back to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear">2024</span> - Corbin Van Scheltema - South Africa</p>
+        <p id="lastModified">Whereas ipsum dolor, sit amet consectetur</p>
+    </footer>
+    <script>
+        // footer
+        document.getElementById("currentyear").textContent =
+            new Date().getFullYear();
+        document.getElementById(
+            "lastModified"
+        ).textContent = `Last Modified: ${document.lastModified}`;
+    </script>
+</body>
+
+</html>

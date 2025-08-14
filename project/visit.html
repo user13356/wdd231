@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="South Africa">
+
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/ico">
+
+    <!--  Essential META Tags -->
+
+
+    <meta property="og:title" content="Home | South Africa Western Cape">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Discover the magic of South Africa through breathtaking landscapes, rich culture, and unforgettable adventures.">
+    <meta property="og:image" content="images/favicon/favicon.png">
+    <meta property="og:url" content="https://user13356.github.io/wdd231/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Visit us | Panama Experience</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script type="module" src="scripts/app.mjs"></script>
+    <script src="scripts/module/visit.js" defer></script>
+
+</head>
+
+<body id="visit-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/favicon/favicon-circle-200x200.webp" alt="Logo South Africa"
+                    width="200" height="200" loading="lazy" />
+                <h1 class="nameHeader"><strong>South Africa</strong> <br>Fresh Air</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./visit.html">Visit</a></li>
+                <li><a class="nav-a " href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-principal">
+            <h2>Nature Pricing <span>Adventures</span></h2>
+            <article class="price-box">
+                <div>
+                    <img src="images/price-img-01-small.webp" alt="South Africa" width="550" height="970"
+                        loading="lazy">
+                    <h4>No Guide</h4>
+                    <h5>R1700</h5>
+                    <p>•Elephant Encounters: Unique, fence-free interactions where you can touch, feed, and walk
+                        alongside elephants that roam freely and choose whom to engage with.</p>
+                    <iframe src="https://knysnaelephantpark.co.za" width="262" height="500"
+                        title="Knysna Elephant Park"></iframe>
+                    <button>Book Now</button>
+                </div>
+                <div>
+                    <img src="images/price-img-02-small.webp" alt="South Africa" width="550" height="970"
+                        loading="lazy">
+                    <h4>Part-Guided Tour</h4>
+                    <h5>On Request</h5>
+                    <p>•At Bloukrans Bridge, offers the world's highest commercial bungee jump at 216 meters (709 feet).
+                        The experience includes a zipline to the jump point, a pendulum bungee jump, and a winch ride
+                        back up to the bridge arch, plus a walk across the bridge's catwalk. It's open year-round</p>
+                    <iframe src="https://bloukransbungy.com" width="262" height="500" title="Bloukrans Bungy"></iframe>
+                    <button>Book Now</button>
+                </div>
+                <div>
+                    <img src="images/price-img-03-small.webp" alt="South Africa" width="550" height="970"
+                        loading="lazy">
+                    <h4>Full Guided Tour</h4>
+                    <h5>On Request</h5>
+                    <p>•Addo Elephant National Park, located in South Africa's Eastern Cape, is a renowned wildlife
+                        sanctuary and the third-largest national park in the country. Initially established in 1931 to
+                        protect a dwindling population of just 11 elephants, it has since grown to encompass a vast
+                        area, now home to over 600 elephants and other iconic African wildlife.</p>
+                    <iframe src="https://www.addo.org.za" width="262" height="500" title="Addo Elephant Park"></iframe>
+                    <button>Book Now</button>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="section-media">
+            <h2>What We Can Offer You</h2>
+            <p>Western Cape Experience offers curated travel packages, expert local guidance, and unforgettable
+                adventures that showcase the beauty, culture, and diversity of the Western Cape. Whether you're looking
+                for relaxation, thrilling excursions, or immersive cultural experiences, our services are crafted to
+                make your journey truly exceptional.</p>
+            <article class="slider-container slider-dimensions">
+                <div class="slider">
+                    <div data-img-url="images/offer-01-small.webp" class="slider-dimensions" width="470" loading="lazy">
+                        <h4>Custom Offers</h4>
+                    </div>
+                    <div data-img-url="images/offer-02-small.webp" class="slider-dimensions" width="470" loading="lazy">
+                        <h4>Qualified Guides</h4>
+                    </div>
+                    <div data-img-url="images/offer-03-small.webp" class="slider-dimensions" width="470" loading="lazy">
+                        <h4>Fun Activities</h4>
+                    </div>
+                    <div data-img-url="images/offer-04-small.webp" class="slider-dimensions" width="470" loading="lazy">
+                        <h4>Lion at lunch/h4>
+                    </div>
+                </div>
+                <div class="nav-container slider-dimensions">
+                    <button data-index-change="-1">&lt;</button>
+                    <div class="index-container">
+                    </div>
+                    <button data-index-change="1">&gt;</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="section-opinion">
+            <h2>Clients Feedback</h2>
+            <div class="opinion opinion-01">
+                <p>"The self-paced tour was exactly what we needed! We really appreciated the flexibility, and every
+                    recommendation was spot-on. Absolutely recommend it!"</p>
+                <h5>John Jackobs</h5>
+            </div>
+            <div class="opinion opinion-02">
+                <p>"The semi-guided tour struck the perfect balance—plenty of freedom to explore on our own, paired with
+                    valuable insights from our local guide."</p>
+                <h5>Mika Rogers</h5>
+            </div>
+            <div class="opinion opinion-03">
+                <p>"The fully guide tour was incredible! Our guide’s knowledge and friendliness made the experience
+                    unforgettable."</p>
+                <h5>Ave Jordan</h5>
+            </div>
+        </section>
+        <div class="contact-info-visit">
+            <a href="#"><img src="images/logos/Facebook_Logo_Secondary.webp" alt="Facebook" width="104" height="104"
+                    loading="lazy" loading="lazy"></a>
+            <a href="#"><img src="images/logos/logo-x-version-white.webp" alt="Twitter" width="104" height="104"
+                    loading="lazy" loading="lazy"></a>
+            <a href="#"><img src="images/logos/Instagram_Glyph_White.webp" alt="Instagram" width="104" height="104"
+                    loading="lazy" loading="lazy"></a>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">2025</span> - Corbin Van Scheltema - South Africa</p>
+        <p id="lastModified">Whereas ipsum dolor, sit amet consectetur</p>
+    </footer>
+</body>
+
+</html>
