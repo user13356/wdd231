@@ -1,0 +1,10 @@
+/* Larger Views ******************************/
+@media (min-width: 1024px) {
+    main {
+        width: 75%;
+        max-width: 1280px;
+    }
+
+    
+}
+
