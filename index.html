@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="Corbin Van Scheltema">
+    <link rel="icon" href="images/logo.jpg">
+
+    <!--  Important Information Tags -->
+
+    <meta property="og:title" content="Home | Corbin Van Scheltema">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/eastern_cape_city.webp">
+    <meta property="og:url" content="https://user13356.github.io/wdd231/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!----  Font and CSS Information ---->
+
+    <title>Home | Corbin Van Scheltema</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style-small.css">
+    <link rel="stylesheet" href="styles/style-large.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+
+</head>
+
+<!----  Personal Inforamtion ---->
+
+<body>
+    <header>
+        <div class="content">
+            <img class="avatar" src="images/corbin_photo.png" alt="Corbin Van Scheltema Picture">
+        </div>
+        <h1>Corbin Van Scheltema</h1>
+        <button id="menu" title="Menu"></button>
+    </header>
+
+    <!----  Source hosting and Social Media details ---->
+
+    <nav>
+        <ul>
+            <li><a class="active" href="/index.html">Home</a></li>
+            <li><a href="https://github.com/user13356" target="_blank">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/cvans/" target="_blank">LinkedIn Profile</a></li>
+            <li><a href="chamber/#" target="#">Chamber</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="courseWork-box">
+            <h2>Course Work</h2>
+            <ul>
+                <li>Chamber of Commerce Site Plan</li>
+                <li>Chamber of Commerce Directory</li>
+                <li>Chamber Home Page</li>
+                <li>Chamber Membership Sign Up</li>
+                <li>Chamber Discover Page / Project</li>
+                <li>My Website Project</li>
+                <li>Final Exam</li>
+            </ul>
+
+        </section>
+        <section class="country-box">
+            <h2>South Africa</h2>
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/loading_name1.webp">
+                <source media="(min-width: 1024px)" srcset="images/loading_name2.webp">
+
+                <img src="images/loading_name1.webp" alt="South Africa" width="298" height="222">
+            </picture>
+            <p>Eastern Cape</p>
+
+            <!----  Certificate Box ---->
+
+        </section>
+        <section class="certificate-box">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="boxButton">
+                <button class="courseButton" value="all" title="Filter button">All</button>
+                <button class="courseButton" value="cse" title="Filter button">CSE</button>
+                <button class="courseButton" value="wdd" title="Filter button">WDD</button>
+            </div>
+            <div class="boxcertificate01 boxCourse"></div>
+            <dialog id="courses-details"></dialog>
+            <p id="totalCreditsCert01">Total Credits for Certificate 1: 0</p>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">Lorem</span> Corbin Van Scheltema | South Africa</p>
+        <p id="lastModified">Lorem ipsum</p>
+
+    </footer>
+</body>
+
+</html>
